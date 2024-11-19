@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import Input from './Search';
 
 const HeroMain = () => {        
     return (
-        <div className="overflow-x-hidden bg-gray-50">
+        <div className="overflow-x-hidden bg-gray-50 m-5">
     <header className="relative py-4 md:py-6">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between">
@@ -59,6 +60,8 @@ const HeroMain = () => {
             </div>
         </div>
     </header>
+
+    <Input/>
 
     <section className="relative py-12 sm:py-16 lg:pt-20 xl:pb-0">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
