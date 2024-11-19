@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Icons() {
+function Icons({title,logo}) {
   return (
-    <div className='flex p-4 m-4 border-'>
+    <div className='flex p-4 m-4 hover:bg-gray-100 transition-all cursor-pointer'>
         <div>
-        <img src="src\assets\asset 63.jpeg" className='h-14' alt="" />
-        <p>Farms</p>
+        <img src={logo} className='h-14' alt="" />
+        <p>{title}</p>
         </div>
     </div>
   )

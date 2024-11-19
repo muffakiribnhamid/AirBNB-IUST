@@ -4,9 +4,9 @@ import styled from 'styled-components';
 const Card = ({heading,image,title}) => {
   return (
     <StyledWrapper>
-      <div className="card">
-        <img className="image rounded-md" src={image}/>
-        <div className="content">
+      <div className="card hover:bg-gray-200">
+        <img className="image rounded-md hover:bg-gray-200" src={image}/>
+        <div className="content hover:bg-slate-100 rounded-md cursor-pointer">
           <a href="#">
             <span className="title">
               {heading}
