@@ -7,6 +7,8 @@ import Card from './components/Cards'
 import Icons from './components/Icons'
 import Input from './components/Search'
 import Footer from './components/footer'
+import Review from './components/Reviews'
+
 
 
 
@@ -51,6 +53,13 @@ function App() {
         <Card heading={'Gurguram India'} image={'https://a0.muscache.com/im/pictures/miso/Hosting-1212899480748712728/original/d709b7a1-50a8-4bb9-9788-57986cfa9b50.jpeg?im_w=720&im_format=avif'} title={'43 November  22 Km Away'}/>
 
 
+        </div>
+
+        <div className='flex'>
+        <Review/>
+        <Review/>
+        <Review/>
+        <Review/>
         </div>
 
         <Footer/>
